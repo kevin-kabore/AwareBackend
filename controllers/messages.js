@@ -63,7 +63,7 @@ function update(req, res){
 
     message.save(function(err){
       if (err) res.json({message:'could not save b/c: ' + err})
-      res.redirect({messsage:'successfully updated'})
+      res.json({messsage:'successfully updated'})
     })
   })
 }

@@ -14,10 +14,11 @@ var jwt = require('jsonwebtoken');
  // changes to what your token looks like here.
  function extractPayload(user, options) {
    return {
-    number: user.number,
+    number: user.Number,
     email: user.email,
     firstName:  user.firstName,
     lastName: user.lastName,
+    admin: user.admin,
     use:   'public_api'
    };
  }

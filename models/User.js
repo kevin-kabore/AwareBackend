@@ -4,7 +4,8 @@ var UserSchema = mongoose.Schema({
   number: {type: String, required:true, unique:true},
   email: {type: String, required:true, unique:true},
   firstName: {type: String},
-  lastName: {type: String}
+  lastName: {type: String},
+  admin: {type: Boolean, default: false}
 })
 
 // add bcrypt hashing to model (works on a password field)!
