@@ -5,7 +5,8 @@ module.exports = {
   create: create, //inbound text
   show: show,
   update: update,
-  destroy: destroy
+  destroy: destroy,
+  getByPhone: getByPhone
 }
 
 //GET /api/sms
@@ -69,11 +70,19 @@ function update(req, res){
 }
 
 //DELETE /api/sms/:id
-
 function destroy(req, res){
   var id = req.params.id
   Message.remove({_id: id}, function(err){
     if (err) res.json({message:'could not remove message b/c: ' + err})
     res.json({message:'message successfully deleted.'})
   })
+}
+
+function getByPhone(req, res){
+  var phone = req.params.phoneNumber
+  console.log(phone);
+  Message.find({FromNumber: phone}, function(err, messages){
+    if (err) res.json({message: 'Could not find messages b/c: ' + err})
+    res.json(messages);
+  }).select('-__v');
 }

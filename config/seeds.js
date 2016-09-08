@@ -28,7 +28,7 @@ var messages = [
     FromState: 'NY',
     FromCity: 'BROOKLYN',
     FromZip: '10009',
-    Body: 'Its LIT! Stay Clear.'
+    Body: 'Its LIT! Stay Clear of the litty.'
   }
 ]
 

@@ -18,6 +18,8 @@ router.route('/api/sms/:id')
   .patch(messagesController.update)
   .delete(messagesController.destroy)
 
+router.get('/api/sms/phone/:phoneNumber', messagesController.getByPhone)
+
 
 //Routes/resources for users
 router.post('/api/users', usersController.create)
