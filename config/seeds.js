@@ -11,24 +11,24 @@ var messages = [
   },
   {
     FromNumber: '+13474972829',
-    FromState: 'NY',
-    FromCity: 'BROOKLYN',
-    FromZip: '10009',
-    Body: 'There is a fire on 118th street. May want to take  detour!'
+    FromState: 'Burkina Faso',
+    FromCity: 'Ouagadougou',
+    FromZip: 'Secteur 10',
+    Body: 'Smoke. Smoke everywhere. City wide curfew instilled. Everyone is advised to stay inside, but no one has any idea why or idea of what is actually going on. News Channel is displaying a late night show it would seem it\' s nothing crazy.'
   },
   {
     FromNumber: '+13474972829',
-    FromState: 'NY',
-    FromCity: 'BROOKLYN',
-    FromZip: '10009',
-    Body: 'BK elementary is out early due to the release of the new Bobby Shmurda mixtape. Streets are packed, avoid driving.'
+    FromState: 'Burkina Faso',
+    FromCity: 'Ouagadougou',
+    FromZip: 'Secteur 11',
+    Body: 'Still no information on the news channels, curfew still in place. Nobody in the streets, but word of mouth starts to spread. Seems like there\'s been a terrorist attack in the center of the capital.'
   },
   {
     FromNumber: '+13474972829',
-    FromState: 'NY',
-    FromCity: 'BROOKLYN',
+    FromState: 'Burkina Faso',
+    FromCity: 'Ouagadougou',
     FromZip: '10009',
-    Body: 'Its LIT! Stay Clear of the litty.'
+    Body: 'The national news channel finally has information. There was a terrorist attack in 19 dead, several injured.'
   }
 ]
 
